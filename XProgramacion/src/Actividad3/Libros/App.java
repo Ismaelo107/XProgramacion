@@ -36,7 +36,7 @@ public class App {
                     System.out.println(libros[i].imprimirlibro());
                     break;
                 case 2:
-                    System.out.println(libros[i].imprimirlibro());
+                    System.out.println();
                     break;
                 case 3:
                     break;
