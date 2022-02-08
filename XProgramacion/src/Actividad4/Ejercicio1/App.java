@@ -1,7 +1,0 @@
-package Actividad4.Ejercicio1;
-
-public class App {
-    public static void main(String[] args) {
-
-    }
-}
