@@ -44,7 +44,5 @@ public class Ejercicio1 {
                 System.out.print(press + " ");
             }
         }
-
-
     }
 }

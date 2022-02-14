@@ -1,8 +1,8 @@
+/*
 package Tema4.Actividad3.Ejercicio2;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
+
 
 public class App {
     public static void main(String[] args) {
@@ -54,7 +54,7 @@ public class App {
                 case 3:
                     id = sc.nextInt();
 
-                    if (id == libro.getId()) {
+                    //if (parseInt(id).equals(libro.getId()) {
                         for (Libro press :
                                 list) {
                             System.out.println(press.getId() + " " + press.getTitulo() + " " + press.getAutor() + " " + press.getEditorial());
@@ -71,4 +71,4 @@ public class App {
             System.out.println();
         }
     }
-}
+}*/
