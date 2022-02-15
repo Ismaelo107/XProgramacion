@@ -2,7 +2,7 @@ package Tema4.Actividad4;
 
 import java.util.*;
 
-public class Ejercio3 {
+public class Ejercicio3 {
     public static void main(String[] args) {
 
         List<Integer> listP = new ArrayList<>();
