@@ -1,4 +1,4 @@
-package Tema4.Actividad4;
+package Tema4.Actividad4.Ejercicio2;
 
 import java.util.*;
 
