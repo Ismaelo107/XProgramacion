@@ -53,7 +53,7 @@ public class App {
                     alumno = it2.next();
                     if (alumno.getNombre().contains(nombre)) {
                         System.out.println("Alumno encontrado: ");
-                            System.out.println(alumno.toString());
+                        System.out.println(alumno.toString());
                     }
                 }
                 break;
@@ -77,7 +77,7 @@ public class App {
                     alumno = it4.next();
                     if (alumno.getNombre().equalsIgnoreCase(nombre)) {
                         System.out.println("Alumno encontrado: ");
-                        System.out.println("El apellido tiene "+alumno.getApellido().length() +" letras");
+                        System.out.println("El apellido tiene " + alumno.getApellido().length() + " letras");
                     }
                 }
                 break;
@@ -89,8 +89,9 @@ public class App {
                     alumno = it5.next();
                     if (alumno.getNombre().equalsIgnoreCase(nombre)) {
                         System.out.println("Alumno encontrado: ");
-                        String cambiarNombre=alumno.setNombre();
-                        System.out.println(cambiarNombre=sc.next());
+                        System.out.println("Cambiar nombre a: ");
+                        alumno.setNombre(sc.next());
+                        System.out.println(alumno);
                     }
                 }
                 break;
